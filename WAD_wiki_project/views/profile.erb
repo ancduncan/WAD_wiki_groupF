@@ -1,0 +1,9 @@
+<h3>User</h3> 
+<% if @Userz %>  
+	<div id="user_wrap">
+	  	<p><strong>Name:</strong> <%= @Userz.username %></p> 
+	  	<p><strong>Created:</strong> <%= @Userz.created_at %></p> 
+	  	<p><strong>Last updated:</strong> <%= @Userz.updated_at %></p> 
+	  	<p><strong>Edit status:</strong> <%= @Userz.edit %></p> 
+	</div> 
+<% end %>
